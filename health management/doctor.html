@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doctor's Profile</title>
+    <style>
+      /* CSS styles */
+      body {
+        text-decoration-color: antiquewhite;
+        background:#24243e;
+        font-family: Arial, sans-serif;
+      }
+        
+
+        
+      h1 {
+        color: aliceblue;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      #container {
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      #profile {
+        text-decoration-color: antiquewhite;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+      }
+
+      #profile img {
+        text-decoration-color: antiquewhite;
+        width: 100%;
+        height: auto;
+      }
+
+      #profile h2 {
+        text-decoration-color: antiquewhite;
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      #profile p {
+        text-decoration-color: antiquewhite;
+        line-height: 1.2;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      #education {
+        text-decoration-color: antiquewhite;
+        width: 250px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      #education h2 {
+        margin-top: 0;
+        font-size: 16px;
+      }
+
+      #education ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+      }
+
+      #education li {
+        margin-bottom: 5px;
+        font-size: 12px;
+      }
+
+      .highlight {
+        text-decoration-color: antiquewhite;
+        font-weight: bold;
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Doctor's Profile</h1>
+    <div id="container">
+      <div id="profile">
+        <img src="https://pioneerhospitals.com/wp-content/uploads/2018/03/img-general-hospital-05.png" alt="Profile Picture">
+        <h2>Dr. John Smith</h2>
+        <p>Specialization: <span class="highlight">Cardiology</span></p>
+        <p>Phone: <span class="highlight">(555) 555-5555</span></p>
+      </div>
+      <div id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>B.S. in Biology, UCLA</li>
+          <li>M.D., USC</li>
+          <li>Internal Medicine Residency, Cedars-Sinai Medical Center</li>
+          <li>Cardiology Fellowship, Stanford University Medical Center</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

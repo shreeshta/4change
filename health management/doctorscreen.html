@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PROFILE</title>
+    <style>
+      /* CSS styles */
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e)
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 24px;
+        color: aliceblue;
+      }
+
+      #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: #eee;
+        border: 1px solid #999;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box a {
+        text-decoration: none;
+        color: #333;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      #top-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #middle-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #bottom-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 20px;
+      }
+
+      #profile img {
+        width: 100%;
+        height: auto;
+      }
+
+      #profile h2 {
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      #profile p {
+        line-height: 1.2;
+        font-size: 14px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GENESIS</h1>
+    <div id="container">
+      <div id="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8UrY4JnoJPqa2tFF9lH3mbUNhBVedOhmY-zDfgm_38w&usqp=CAU&ec=48600113" alt="Profile Picture">
+        <h2>Dr. John Smith</h2>
+        <p>Specialization: Cardiology</p>
+        <p>Phone: (555) 555-5555</p>
+      </div>
+    
+      <div id="bottom-links">
+        <div class="box">
+          <a href="http://127.0.0.1:5500/patient.html">Online Appointment</a>
+        </div>
+        <div class="box">
+            <a href="http://127.0.0.1:5500/patient.html">Offline Appointment</a>
+          </div>
+        <div class="box">
+          <a href="./symptom.html">Symptom Checker</a>
+        </div>
